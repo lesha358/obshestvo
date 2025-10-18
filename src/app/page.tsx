@@ -154,7 +154,7 @@ export default function Home() {
               <div className="text-center text-muted-foreground">
                 <div className="text-3xl sm:text-4xl mb-2">🗺️</div>
                 <p className="text-sm sm:text-base">Интерактивная карта</p>
-                <p className="text-xs sm:text-sm">(будет подключена Яндекс.Карты)</p>
+                <p className="text-xs sm:text-sm">(будут подключены Яндекс.Карты)</p>
               </div>
             </div>
           </div>
