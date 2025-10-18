@@ -16,7 +16,6 @@ const nextConfig: NextConfig = {
   
   // Экспериментальные функции для производительности
   experimental: {
-    optimizeCss: true,
     optimizePackageImports: ['@/components'],
   },
   
