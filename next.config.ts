@@ -14,9 +14,6 @@ const nextConfig: NextConfig = {
   // Сжатие
   compress: true,
   
-  // Оптимизация сборки
-  swcMinify: true,
-  
   // Экспериментальные функции для производительности
   experimental: {
     optimizeCss: true,

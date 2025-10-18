@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata = {
@@ -171,9 +172,9 @@ export default function ReportsPage() {
           обращайтесь к нам. Мы поможем защитить ваши права.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
-          <a href="/#contact" className="btn-primary">
+          <Link href="/#contact" className="btn-primary">
             Получить консультацию
-          </a>
+          </Link>
           <a href="tel:+70000000000" className="btn-secondary">
             Позвонить нам
           </a>
