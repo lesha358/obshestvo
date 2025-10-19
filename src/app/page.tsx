@@ -90,30 +90,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Статистика */}
-      <section className="gradient-red text-primary-foreground rounded-2xl py-8 sm:py-12 shadow-lg">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl sm:text-2xl font-semibold text-center mb-6 sm:mb-8">Наши достижения</h2>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 text-center">
-            <div>
-              <div className="text-2xl sm:text-3xl font-bold mb-1 sm:mb-2">500+</div>
-              <div className="text-xs sm:text-sm opacity-90">Консультаций</div>
-            </div>
-            <div>
-              <div className="text-2xl sm:text-3xl font-bold mb-1 sm:mb-2">150+</div>
-              <div className="text-xs sm:text-sm opacity-90">Решённых споров</div>
-            </div>
-            <div>
-              <div className="text-2xl sm:text-3xl font-bold mb-1 sm:mb-2">50+</div>
-              <div className="text-xs sm:text-sm opacity-90">УК под контролем</div>
-            </div>
-            <div>
-              <div className="text-2xl sm:text-3xl font-bold mb-1 sm:mb-2">3+</div>
-              <div className="text-xs sm:text-sm opacity-90">Года работы</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Контакты и карта */}
       <section id="contact" className="space-y-6 sm:space-y-8">
